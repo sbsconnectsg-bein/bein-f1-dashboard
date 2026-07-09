@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap');
+
+:root{
+  --purple: #5A328B;
+  --purple-dark: #23133B;
+  --ink: #0D0D12;
+  --white: #FFFFFF;
+  --gold: #F2B705;
+  --red: #E10600;
+  --fl-purple: #C042FF;
+  --muted: #A8A0B8;
+  --line: rgba(255,255,255,0.14);
+  --card: rgba(255,255,255,0.05);
+}
+*{ box-sizing: border-box; margin:0; padding:0; }
+html,body{
+  width:100%; height:100%;
+  background:
+    radial-gradient(120% 90% at 100% 0%, var(--purple) 0%, transparent 55%),
+    radial-gradient(120% 90% at 0% 100%, var(--purple-dark) 0%, transparent 60%),
+    var(--ink);
+  color: var(--white);
+  font-family: 'Barlow', sans-serif;
+  overflow: hidden;
+}
+.stage{ width:100vw; height:100vh; display:flex; flex-direction:column; padding: 0.9vh 1.688vh; }
+
+.header{ flex-shrink:0; padding-bottom: 0.7vh; border-bottom: 1px solid var(--line); }
+.header-top{ display:flex; align-items:center; justify-content:space-between; padding-bottom:0.5vh; }
+.brand-logo{ height:3.2vh; width:auto; display:block; }
+.status{ display:flex; flex-direction:column; align-items:flex-end; gap:0.4vh; font-family:'Barlow Condensed'; color:var(--muted); }
+.status .clock{ font-size:1.9vh; font-weight:700; color:var(--white); }
+.status .updated{ font-size:1.1vh; white-space:nowrap; }
+.status .updated .dot{
+  display:inline-block; width:0.9vh; height:0.9vh; border-radius:50%; background:var(--red);
+  margin-right:0.5vh; box-shadow:0 0 6px var(--red); animation:pulse 1.6s ease-in-out infinite;
+}
+@keyframes pulse{ 0%,100%{opacity:1;} 50%{opacity:0.35;} }
+.header-title .eyebrow{
+  font-family:'Barlow Condensed'; font-weight:700; letter-spacing:0.14em;
+  font-size:1.3vh; text-transform:uppercase; color:var(--gold);
+}
+.header-title h1{ font-family:'Barlow Condensed'; font-weight:900; font-size:3.4vh; line-height:1.05; letter-spacing:0.02em; }
+
+.footer{
+  flex-shrink:0; display:flex; justify-content:space-between; align-items:center;
+  padding-top:0.4vh; margin-top:0.4vh; border-top:1px solid var(--line);
+  font-family:'Barlow Condensed'; font-size:1vh; color:var(--muted); letter-spacing:0.03em;
+}
+
+.panel-title{
+  font-family:'Barlow Condensed'; font-weight:800; text-transform:uppercase;
+  letter-spacing:0.08em; font-size:1.5vh; color:var(--gold);
+}
+.empty-note{ font-family:'Barlow Condensed'; color:var(--muted); font-size:1.5vh; margin-top:0.6vh; }
+
+/* ---- Section 1: Latest Race Results (leads the page) ---- */
+.main-content{ flex:1; min-height:0; display:flex; flex-direction:column; justify-content:space-evenly; overflow:hidden; }
+.section{ flex-shrink:0; }
+.race-headline{ border-bottom:2px solid var(--gold); padding-bottom:0.5vh; }
+.race-name{ font-family:'Barlow Condensed'; font-weight:900; font-size:2.8vh; line-height:1.1; margin-top:0.3vh; }
+.race-date{ font-family:'Barlow Condensed'; color:var(--muted); font-size:1.4vh; margin-top:0.2vh; }
+
+.result-banners{ display:flex; justify-content:space-between; align-items:center; gap:0.6vh; margin-top:0.7vh; flex-wrap:wrap; }
+.winner-banner{
+  display:flex; align-items:center; gap:0.6vh; padding:0.55vh 1vh;
+  border:1.5px solid; border-radius:6px; background:rgba(255,255,255,0.05);
+  font-family:'Barlow Condensed'; font-weight:800; font-size:1.6vh;
+}
+.winner-banner .wb-team{ color:var(--gold); }
+.fastest-lap-banner{
+  display:flex; align-items:center; gap:0.4vh; padding:0.55vh 1vh; margin-left:auto;
+  border:1.5px solid var(--fl-purple); border-radius:6px; background:rgba(174,84,255,0.1);
+  font-family:'Barlow Condensed'; font-weight:700; font-size:1.4vh; color:var(--muted);
+}
+.fastest-lap-banner .fl-name{ color:var(--white); font-weight:800; }
+.fastest-lap-banner .fl-time{ color:var(--fl-purple); font-weight:800; }
+
+.results-grid{ display:flex; gap:1vh; margin-top:0.7vh; }
+.results-col{ flex:1; min-width:0; display:flex; flex-direction:column; gap:0.25vh; }
+.result-row{
+  display:flex; align-items:center; gap:0.6vh; min-width:0;
+  background:var(--card); border:1px solid var(--line); border-radius:5px;
+  padding:0.36vh 0.8vh; font-family:'Barlow Condensed'; font-size:1.5vh;
+}
+.result-row.p1{ border-color:var(--gold); background:rgba(242,183,5,0.1); }
+.result-row .rpos{ width:1.5em; font-weight:800; color:var(--gold); flex-shrink:0; }
+.result-row .rswatch{ width:0.5vh; height:1.8vh; border-radius:2px; flex-shrink:0; }
+.result-row .rname{ font-weight:700; flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.result-row .rteam{
+  font-size:0.86em; color:var(--muted); flex-shrink:0; max-width:40%;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.result-row .rdnf{ font-size:0.78em; font-weight:800; color:var(--red); flex-shrink:0; }
+.result-row .rfl{
+  font-size:0.72em; font-weight:800; color:var(--ink); background:var(--fl-purple);
+  border-radius:3px; padding:0.05em 0.4em; flex-shrink:0;
+}
+
+/* ---- Section 2: Next GP hero (below results) ---- */
+.next-gp-hero{
+  flex-shrink:0; padding:1vh 1.3vh;
+  border:1.5px solid var(--gold); border-radius:10px;
+  background: linear-gradient(135deg, rgba(242,183,5,0.14), rgba(242,183,5,0.02));
+}
+.hero-label{
+  font-family:'Barlow Condensed'; font-weight:800; text-transform:uppercase;
+  letter-spacing:0.1em; font-size:1.2vh; color:var(--gold); margin-bottom:0.4vh;
+}
+.hero-main{ display:flex; justify-content:space-between; align-items:flex-end; gap:1vh; }
+.hero-gp-name{ font-family:'Barlow Condensed'; font-weight:900; font-size:2.4vh; line-height:1.05; }
+.hero-gp-location{ font-family:'Barlow Condensed'; color:var(--muted); font-size:1.3vh; margin-top:0.25vh; }
+.hero-race-time{ text-align:right; flex-shrink:0; }
+.hrt-label{
+  font-family:'Barlow Condensed'; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.08em; font-size:1.1vh; color:var(--gold);
+}
+.hrt-date{ font-family:'Barlow Condensed'; font-weight:900; font-size:2vh; color:var(--white); white-space:nowrap; }
+.session-chips{ display:flex; flex-wrap:wrap; gap:0.5vh; margin-top:0.7vh; }
+.session-chip{
+  display:flex; align-items:center; gap:0.4vh; background:rgba(255,255,255,0.06);
+  border:1px solid var(--line); border-radius:5px; padding:0.3vh 0.7vh;
+  font-family:'Barlow Condensed'; font-size:1.1vh;
+}
+.session-chip .sc-name{ font-weight:700; }
+.session-chip .sc-time{ color:var(--muted); }
+.hero-empty{ font-family:'Barlow Condensed'; color:var(--muted); font-size:1.6vh; }
+
+/* ---- Section 3: Standings (below Next GP) ---- */
+.standings-section{ flex-shrink:0; display:flex; flex-direction:column; }
+.standings-section .panel-title{ padding-bottom:0.4vh; border-bottom:2px solid var(--gold); flex-shrink:0; }
+.standings-as-of{
+  font-family:'Barlow Condensed'; font-size:1.1vh; color:var(--muted);
+  letter-spacing:0.02em; margin-top:0.3vh; flex-shrink:0;
+}
+.standings-columns{ display:flex; gap:1.4vh; margin-top:0.6vh; flex:1; min-height:0; }
+.standings-block{ flex:1; min-width:0; }
+.standings-subtitle{
+  font-family:'Barlow Condensed'; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.05em; font-size:1.2vh; color:var(--muted); margin-bottom:0.3vh;
+}
+.standing-row{
+  display:flex; align-items:center; gap:0.6vh; min-width:0;
+  background:var(--card); border:1px solid var(--line); border-radius:5px;
+  padding:0.34vh 0.8vh; margin-bottom:0.22vh; font-family:'Barlow Condensed'; font-size:1.45vh;
+}
+.standing-row .pos{ width:1.6em; font-weight:800; color:var(--gold); flex-shrink:0; }
+.standing-row .swatch{ width:0.55vh; height:1.85vh; border-radius:2px; flex-shrink:0; }
+.standing-row .sname{ flex:1; min-width:0; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.standing-row .steam{ color:var(--muted); font-size:0.92em; }
+.standing-row .spts{ font-weight:800; flex-shrink:0; }
