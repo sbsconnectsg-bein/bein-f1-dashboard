@@ -1,0 +1,295 @@
+{
+  "updated_at": "2026-07-08T10:00:00Z",
+  "season": 2026,
+  "next_gp": {
+    "meeting_name": "Formula 1 Belgian Grand Prix 2026",
+    "circuit": "Spa-Francorchamps",
+    "country": "Belgium",
+    "sessions": [
+      {
+        "name": "Practice 1",
+        "start": "2026-07-17T11:30:00Z"
+      },
+      {
+        "name": "Practice 2",
+        "start": "2026-07-17T15:00:00Z"
+      },
+      {
+        "name": "Practice 3",
+        "start": "2026-07-18T10:30:00Z"
+      },
+      {
+        "name": "Qualifying",
+        "start": "2026-07-18T14:00:00Z"
+      },
+      {
+        "name": "Race",
+        "start": "2026-07-19T13:00:00Z"
+      }
+    ]
+  },
+  "driver_standings": [
+    {
+      "position": 1,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "teamColour": "#00D7B6",
+      "points": 168
+    },
+    {
+      "position": 2,
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "team": "Mercedes",
+      "teamColour": "#00D7B6",
+      "points": 134
+    },
+    {
+      "position": 3,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "teamColour": "#E80020",
+      "points": 112
+    },
+    {
+      "position": 4,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari",
+      "teamColour": "#E80020",
+      "points": 92
+    },
+    {
+      "position": 5,
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "teamColour": "#FF8000",
+      "points": 88
+    },
+    {
+      "position": 6,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "teamColour": "#FF8000",
+      "points": 71
+    },
+    {
+      "position": 7,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "teamColour": "#3671C6",
+      "points": 70
+    },
+    {
+      "position": 8,
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "team": "Alpine",
+      "teamColour": "#FF87BC",
+      "points": 34
+    },
+    {
+      "position": 9,
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "Racing Bulls",
+      "teamColour": "#6C98FF",
+      "points": 27
+    },
+    {
+      "position": 10,
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Haas F1 Team",
+      "teamColour": "#FFFFFF",
+      "points": 14
+    },
+    {
+      "position": 11,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Williams",
+      "teamColour": "#64C4FF",
+      "points": 8
+    }
+  ],
+  "constructor_standings": [
+    {
+      "position": 1,
+      "team": "Mercedes",
+      "points": 302,
+      "teamColour": "#00D7B6"
+    },
+    {
+      "position": 2,
+      "team": "Ferrari",
+      "points": 204,
+      "teamColour": "#E80020"
+    },
+    {
+      "position": 3,
+      "team": "McLaren",
+      "points": 159,
+      "teamColour": "#FF8000"
+    },
+    {
+      "position": 4,
+      "team": "Red Bull Racing",
+      "points": 115,
+      "teamColour": "#3671C6"
+    },
+    {
+      "position": 5,
+      "team": "Alpine",
+      "points": 57,
+      "teamColour": "#FF87BC"
+    },
+    {
+      "position": 6,
+      "team": "Racing Bulls",
+      "points": 44,
+      "teamColour": "#6C98FF"
+    },
+    {
+      "position": 7,
+      "team": "Haas F1 Team",
+      "points": 21,
+      "teamColour": "#FFFFFF"
+    },
+    {
+      "position": 8,
+      "team": "Williams",
+      "points": 11,
+      "teamColour": "#64C4FF"
+    },
+    {
+      "position": 9,
+      "team": "Audi",
+      "points": 2,
+      "teamColour": "#F50537"
+    },
+    {
+      "position": 10,
+      "team": "Aston Martin",
+      "points": 1,
+      "teamColour": "#229971"
+    },
+    {
+      "position": 11,
+      "team": "Cadillac",
+      "points": 0,
+      "teamColour": "#A9C4D9"
+    }
+  ],
+  "last_race": {
+    "meeting_name": "Formula 1 British Grand Prix 2026",
+    "date": "2026-07-05T14:00:00Z",
+    "winning_team": "Ferrari",
+    "winning_team_colour": "#E80020",
+    "fastest_lap": {
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "lapNumber": 51,
+      "durationSeconds": 88.312,
+      "durationFormatted": "1:28.312"
+    },
+    "results": [
+      {
+        "position": 1,
+        "code": "LEC",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 2,
+        "code": "RUS",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "teamColour": "#00D7B6",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 3,
+        "code": "HAM",
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 4,
+        "code": "ANT",
+        "name": "Kimi Antonelli",
+        "team": "Mercedes",
+        "teamColour": "#00D7B6",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 5,
+        "code": "PIA",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 6,
+        "code": "VER",
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "teamColour": "#3671C6",
+        "dnf": false,
+        "fastestLap": true
+      },
+      {
+        "position": 7,
+        "code": "NOR",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 8,
+        "code": "GAS",
+        "name": "Pierre Gasly",
+        "team": "Alpine",
+        "teamColour": "#FF87BC",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 9,
+        "code": "LAW",
+        "name": "Liam Lawson",
+        "team": "Racing Bulls",
+        "teamColour": "#6C98FF",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 10,
+        "code": "OCO",
+        "name": "Esteban Ocon",
+        "team": "Haas F1 Team",
+        "teamColour": "#FFFFFF",
+        "dnf": true,
+        "fastestLap": false
+      }
+    ]
+  }
+}
