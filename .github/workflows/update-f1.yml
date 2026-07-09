@@ -1,0 +1,35 @@
+name: Update F1 Dashboard
+
+on:
+  schedule:
+    # Every 4 hours by default — F1 data barely changes between GPs.
+    # Consider manually triggering (or temporarily editing this to */15 * * * *)
+    # during a race weekend for fresher updates.
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-f1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch latest F1 data
+        run: node scripts/update-f1.js
+
+      - name: Commit updated data (if changed)
+        run: |
+          git config user.name "f1-bot"
+          git config user.email "actions@github.com"
+          git add data/f1-data.json
+          git diff --quiet --cached || git commit -m "Auto-update F1 data"
+          git push
