@@ -2,10 +2,10 @@ name: Update F1 Dashboard
 
 on:
   schedule:
-    # Every 4 hours by default — F1 data barely changes between GPs.
+    # Every 1 hours by default — F1 data barely changes between GPs.
     # Consider manually triggering (or temporarily editing this to */15 * * * *)
     # during a race weekend for fresher updates.
-    - cron: '0 */4 * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch: {}
 
 permissions:
