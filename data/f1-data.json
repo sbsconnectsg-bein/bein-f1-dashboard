@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T15:14:51.720Z",
+  "updated_at": "2026-08-22T16:16:36.957Z",
   "next_gp": {
     "meeting_name": "Dutch Grand Prix",
     "circuit": "Circuit Park Zandvoort",
@@ -205,7 +205,7 @@
       "points": 0
     },
     {
-      "position": null,
+      "position": 23,
       "code": "TSU",
       "name": "Yuki Tsunoda",
       "team": "RB F1 Team",
