@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T16:17:42.103Z",
+  "updated_at": "2026-08-23T17:15:12.013Z",
   "next_gp": {
     "meeting_name": "Italian Grand Prix",
     "circuit": "Autodromo Nazionale di Monza",
@@ -328,7 +328,7 @@
         "team": "Ferrari",
         "teamColour": "#E80020",
         "dnf": false,
-        "fastestLap": false
+        "fastestLap": true
       },
       {
         "position": 6,
@@ -378,6 +378,12 @@
     ],
     "winning_team": "McLaren",
     "winning_team_colour": "#FF8000",
-    "fastest_lap": null
+    "fastest_lap": {
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "lapNumber": 60,
+      "durationFormatted": "1:14.230"
+    }
   }
 }
