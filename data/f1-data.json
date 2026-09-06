@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T21:00:11.937Z",
+  "updated_at": "2026-09-06T22:49:12.268Z",
   "next_gp": {
     "meeting_name": "Spanish Grand Prix",
     "circuit": "Madring",
@@ -282,29 +282,20 @@
     }
   ],
   "last_race": {
-    "meeting_name": "Dutch Grand Prix",
-    "date": "2026-08-23T13:00:00Z",
+    "meeting_name": "Italian Grand Prix",
+    "date": "2026-09-06T13:00:00Z",
     "results": [
       {
         "position": 1,
-        "code": "NOR",
-        "name": "Lando Norris",
-        "team": "McLaren",
-        "teamColour": "#FF8000",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 2,
         "code": "ANT",
         "name": "Andrea Kimi Antonelli",
         "team": "Mercedes",
         "teamColour": "#00D7B6",
         "dnf": false,
-        "fastestLap": false
+        "fastestLap": true
       },
       {
-        "position": 3,
+        "position": 2,
         "code": "RUS",
         "name": "George Russell",
         "team": "Mercedes",
@@ -313,25 +304,25 @@
         "fastestLap": false
       },
       {
+        "position": 3,
+        "code": "VER",
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "teamColour": "#3671C6",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
         "position": 4,
-        "code": "HAM",
-        "name": "Lewis Hamilton",
-        "team": "Ferrari",
-        "teamColour": "#E80020",
+        "code": "NOR",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 5,
-        "code": "LEC",
-        "name": "Charles Leclerc",
-        "team": "Ferrari",
-        "teamColour": "#E80020",
-        "dnf": false,
-        "fastestLap": true
-      },
-      {
-        "position": 6,
         "code": "PIA",
         "name": "Oscar Piastri",
         "team": "McLaren",
@@ -340,50 +331,59 @@
         "fastestLap": false
       },
       {
+        "position": 6,
+        "code": "HAM",
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
         "position": 7,
-        "code": "LAW",
-        "name": "Liam Lawson",
-        "team": "Red Bull",
-        "teamColour": "#3671C6",
+        "code": "GAS",
+        "name": "Pierre Gasly",
+        "team": "Alpine F1 Team",
+        "teamColour": "#FF87BC",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 8,
-        "code": "HUL",
-        "name": "Nico Hülkenberg",
-        "team": "Audi",
-        "teamColour": "#F50537",
-        "dnf": true,
+        "code": "LIN",
+        "name": "Arvid Lindblad",
+        "team": "RB F1 Team",
+        "teamColour": "#6C98FF",
+        "dnf": false,
         "fastestLap": false
       },
       {
         "position": 9,
-        "code": "ALO",
-        "name": "Fernando Alonso",
-        "team": "Aston Martin",
-        "teamColour": "#229971",
-        "dnf": true,
+        "code": "COL",
+        "name": "Franco Colapinto",
+        "team": "Alpine F1 Team",
+        "teamColour": "#FF87BC",
+        "dnf": false,
         "fastestLap": false
       },
       {
         "position": 10,
-        "code": "GAS",
-        "name": "Pierre Gasly",
-        "team": "Alpine F1 Team",
-        "teamColour": "#FF87BC",
-        "dnf": true,
+        "code": "TSU",
+        "name": "Yuki Tsunoda",
+        "team": "RB F1 Team",
+        "teamColour": "#6C98FF",
+        "dnf": false,
         "fastestLap": false
       }
     ],
-    "winning_team": "McLaren",
-    "winning_team_colour": "#FF8000",
+    "winning_team": "Mercedes",
+    "winning_team_colour": "#00D7B6",
     "fastest_lap": {
-      "code": "LEC",
-      "name": "Charles Leclerc",
-      "team": "Ferrari",
-      "lapNumber": 60,
-      "durationFormatted": "1:14.230"
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "team": "Mercedes",
+      "lapNumber": 53,
+      "durationFormatted": "1:23.504"
     }
   }
 }
