@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-06T18:48:18.709Z",
+  "updated_at": "2026-09-06T21:00:11.937Z",
   "next_gp": {
-    "meeting_name": "Italian Grand Prix",
-    "circuit": "Autodromo Nazionale di Monza",
-    "country": "Italy",
+    "meeting_name": "Spanish Grand Prix",
+    "circuit": "Madring",
+    "country": "Spain",
     "sessions": [
       {
         "name": "Practice 1",
-        "start": "2026-09-04T10:30:00Z"
+        "start": "2026-09-11T11:30:00Z"
       },
       {
         "name": "Practice 2",
-        "start": "2026-09-04T14:00:00Z"
+        "start": "2026-09-11T15:00:00Z"
       },
       {
         "name": "Practice 3",
-        "start": "2026-09-05T10:30:00Z"
+        "start": "2026-09-12T10:30:00Z"
       },
       {
         "name": "Qualifying",
-        "start": "2026-09-05T14:00:00Z"
+        "start": "2026-09-12T14:00:00Z"
       },
       {
         "name": "Race",
-        "start": "2026-09-06T13:00:00Z"
+        "start": "2026-09-13T13:00:00Z"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "name": "Andrea Kimi Antonelli",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 242
+      "points": 267
     },
     {
       "position": 2,
@@ -42,7 +42,7 @@
       "name": "George Russell",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 183
+      "points": 201
     },
     {
       "position": 3,
@@ -50,7 +50,7 @@
       "name": "Lewis Hamilton",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 183
+      "points": 191
     },
     {
       "position": 4,
@@ -58,7 +58,7 @@
       "name": "Lando Norris",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 159
+      "points": 171
     },
     {
       "position": 5,
@@ -74,7 +74,7 @@
       "name": "Max Verstappen",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 112
+      "points": 127
     },
     {
       "position": 7,
@@ -82,7 +82,7 @@
       "name": "Oscar Piastri",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 104
+      "points": 116
     },
     {
       "position": 8,
@@ -90,7 +90,7 @@
       "name": "Isack Hadjar",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 68
+      "points": 71
     },
     {
       "position": 9,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 49
+      "points": 51
     },
     {
       "position": 10,
@@ -106,7 +106,7 @@
       "name": "Pierre Gasly",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 44
+      "points": 41
     },
     {
       "position": 11,
@@ -114,7 +114,7 @@
       "name": "Arvid Lindblad",
       "team": "RB F1 Team",
       "teamColour": "#6C98FF",
-      "points": 23
+      "points": 29
     },
     {
       "position": 12,
@@ -122,7 +122,7 @@
       "name": "Franco Colapinto",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 19
+      "points": 21
     },
     {
       "position": 13,
@@ -186,7 +186,7 @@
       "name": "Yuki Tsunoda",
       "team": "RB F1 Team",
       "teamColour": "#6C98FF",
-      "points": 0
+      "points": 1
     },
     {
       "position": 21,
@@ -217,37 +217,37 @@
     {
       "position": 1,
       "team": "Mercedes",
-      "points": 425,
+      "points": 468,
       "teamColour": "#00D7B6"
     },
     {
       "position": 2,
       "team": "Ferrari",
-      "points": 338,
+      "points": 346,
       "teamColour": "#E80020"
     },
     {
       "position": 3,
       "team": "McLaren",
-      "points": 263,
+      "points": 287,
       "teamColour": "#FF8000"
     },
     {
       "position": 4,
       "team": "Red Bull",
-      "points": 186,
+      "points": 204,
       "teamColour": "#3671C6"
     },
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 66,
+      "points": 75,
       "teamColour": "#6C98FF"
     },
     {
       "position": 6,
       "team": "Alpine F1 Team",
-      "points": 63,
+      "points": 62,
       "teamColour": "#FF87BC"
     },
     {
