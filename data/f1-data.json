@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-09-13T17:51:27.326Z",
+  "updated_at": "2026-09-13T20:09:02.336Z",
   "next_gp": {
-    "meeting_name": "Spanish Grand Prix",
-    "circuit": "Madring",
-    "country": "Spain",
+    "meeting_name": "Azerbaijan Grand Prix",
+    "circuit": "Baku City Circuit",
+    "country": "Azerbaijan",
     "sessions": [
       {
         "name": "Practice 1",
-        "start": "2026-09-11T11:30:00Z"
+        "start": "2026-09-24T08:30:00Z"
       },
       {
         "name": "Practice 2",
-        "start": "2026-09-11T15:00:00Z"
+        "start": "2026-09-24T12:00:00Z"
       },
       {
         "name": "Practice 3",
-        "start": "2026-09-12T10:30:00Z"
+        "start": "2026-09-25T08:30:00Z"
       },
       {
         "name": "Qualifying",
-        "start": "2026-09-12T14:00:00Z"
+        "start": "2026-09-25T12:00:00Z"
       },
       {
         "name": "Race",
-        "start": "2026-09-13T13:00:00Z"
+        "start": "2026-09-26T11:00:00Z"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "name": "Andrea Kimi Antonelli",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 267
+      "points": 292
     },
     {
       "position": 2,
@@ -42,7 +42,7 @@
       "name": "George Russell",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 201
+      "points": 211
     },
     {
       "position": 3,
@@ -58,7 +58,7 @@
       "name": "Lando Norris",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 171
+      "points": 186
     },
     {
       "position": 5,
@@ -66,7 +66,7 @@
       "name": "Charles Leclerc",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 155
+      "points": 167
     },
     {
       "position": 6,
@@ -74,7 +74,7 @@
       "name": "Max Verstappen",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 127
+      "points": 145
     },
     {
       "position": 7,
@@ -82,7 +82,7 @@
       "name": "Oscar Piastri",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 116
+      "points": 120
     },
     {
       "position": 8,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 51
+      "points": 59
     },
     {
       "position": 10,
@@ -114,7 +114,7 @@
       "name": "Arvid Lindblad",
       "team": "RB F1 Team",
       "teamColour": "#6C98FF",
-      "points": 29
+      "points": 31
     },
     {
       "position": 12,
@@ -122,7 +122,7 @@
       "name": "Franco Colapinto",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 21
+      "points": 27
     },
     {
       "position": 13,
@@ -146,7 +146,7 @@
       "name": "Nico Hülkenberg",
       "team": "Audi",
       "teamColour": "#F50537",
-      "points": 6
+      "points": 7
     },
     {
       "position": 16,
@@ -217,37 +217,37 @@
     {
       "position": 1,
       "team": "Mercedes",
-      "points": 468,
+      "points": 503,
       "teamColour": "#00D7B6"
     },
     {
       "position": 2,
       "team": "Ferrari",
-      "points": 346,
+      "points": 358,
       "teamColour": "#E80020"
     },
     {
       "position": 3,
       "team": "McLaren",
-      "points": 287,
+      "points": 306,
       "teamColour": "#FF8000"
     },
     {
       "position": 4,
       "team": "Red Bull",
-      "points": 204,
+      "points": 230,
       "teamColour": "#3671C6"
     },
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 75,
+      "points": 77,
       "teamColour": "#6C98FF"
     },
     {
       "position": 6,
       "team": "Alpine F1 Team",
-      "points": 62,
+      "points": 68,
       "teamColour": "#FF87BC"
     },
     {
@@ -259,7 +259,7 @@
     {
       "position": 8,
       "team": "Audi",
-      "points": 16,
+      "points": 17,
       "teamColour": "#F50537"
     },
     {
@@ -282,8 +282,8 @@
     }
   ],
   "last_race": {
-    "meeting_name": "Italian Grand Prix",
-    "date": "2026-09-06T13:00:00Z",
+    "meeting_name": "Spanish Grand Prix",
+    "date": "2026-09-13T13:00:00Z",
     "results": [
       {
         "position": 1,
@@ -292,19 +292,10 @@
         "team": "Mercedes",
         "teamColour": "#00D7B6",
         "dnf": false,
-        "fastestLap": true
-      },
-      {
-        "position": 2,
-        "code": "RUS",
-        "name": "George Russell",
-        "team": "Mercedes",
-        "teamColour": "#00D7B6",
-        "dnf": false,
         "fastestLap": false
       },
       {
-        "position": 3,
+        "position": 2,
         "code": "VER",
         "name": "Max Verstappen",
         "team": "Red Bull",
@@ -313,7 +304,7 @@
         "fastestLap": false
       },
       {
-        "position": 4,
+        "position": 3,
         "code": "NOR",
         "name": "Lando Norris",
         "team": "McLaren",
@@ -322,43 +313,34 @@
         "fastestLap": false
       },
       {
-        "position": 5,
-        "code": "PIA",
-        "name": "Oscar Piastri",
-        "team": "McLaren",
-        "teamColour": "#FF8000",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 6,
-        "code": "HAM",
-        "name": "Lewis Hamilton",
+        "position": 4,
+        "code": "LEC",
+        "name": "Charles Leclerc",
         "team": "Ferrari",
         "teamColour": "#E80020",
         "dnf": false,
         "fastestLap": false
       },
       {
+        "position": 5,
+        "code": "RUS",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "teamColour": "#00D7B6",
+        "dnf": false,
+        "fastestLap": true
+      },
+      {
+        "position": 6,
+        "code": "LAW",
+        "name": "Liam Lawson",
+        "team": "Red Bull",
+        "teamColour": "#3671C6",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
         "position": 7,
-        "code": "GAS",
-        "name": "Pierre Gasly",
-        "team": "Alpine F1 Team",
-        "teamColour": "#FF87BC",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 8,
-        "code": "LIN",
-        "name": "Arvid Lindblad",
-        "team": "RB F1 Team",
-        "teamColour": "#6C98FF",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 9,
         "code": "COL",
         "name": "Franco Colapinto",
         "team": "Alpine F1 Team",
@@ -367,23 +349,41 @@
         "fastestLap": false
       },
       {
-        "position": 10,
-        "code": "TSU",
-        "name": "Yuki Tsunoda",
+        "position": 8,
+        "code": "PIA",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 9,
+        "code": "LIN",
+        "name": "Arvid Lindblad",
         "team": "RB F1 Team",
         "teamColour": "#6C98FF",
-        "dnf": false,
+        "dnf": true,
+        "fastestLap": false
+      },
+      {
+        "position": 10,
+        "code": "HUL",
+        "name": "Nico Hülkenberg",
+        "team": "Audi",
+        "teamColour": "#F50537",
+        "dnf": true,
         "fastestLap": false
       }
     ],
     "winning_team": "Mercedes",
     "winning_team_colour": "#00D7B6",
     "fastest_lap": {
-      "code": "ANT",
-      "name": "Andrea Kimi Antonelli",
+      "code": "RUS",
+      "name": "George Russell",
       "team": "Mercedes",
-      "lapNumber": 53,
-      "durationFormatted": "1:23.504"
+      "lapNumber": 49,
+      "durationFormatted": "1:35.587"
     }
   }
 }
