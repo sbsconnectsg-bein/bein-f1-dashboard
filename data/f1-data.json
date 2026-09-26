@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T13:40:51.431Z",
+  "updated_at": "2026-09-26T17:34:53.029Z",
   "next_gp": {
     "meeting_name": "Bahrain Grand Prix in Malaysia",
     "circuit": "Sepang International Circuit",
@@ -292,7 +292,7 @@
         "team": "Mercedes",
         "teamColour": "#00D7B6",
         "dnf": false,
-        "fastestLap": false
+        "fastestLap": true
       },
       {
         "position": 2,
@@ -378,6 +378,12 @@
     ],
     "winning_team": "Mercedes",
     "winning_team_colour": "#00D7B6",
-    "fastest_lap": null
+    "fastest_lap": {
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "lapNumber": 49,
+      "durationFormatted": "1:44.916"
+    }
   }
 }
