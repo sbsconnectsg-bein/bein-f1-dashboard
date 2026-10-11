@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-11T15:16:12.095Z",
+  "updated_at": "2026-10-11T19:51:54.834Z",
   "next_gp": {
-    "meeting_name": "Singapore Grand Prix",
-    "circuit": "Marina Bay Street Circuit",
-    "country": "Singapore",
+    "meeting_name": "United States Grand Prix",
+    "circuit": "Circuit of the Americas",
+    "country": "USA",
     "sessions": [
       {
         "name": "Practice 1",
-        "start": "2026-10-09T08:30:00Z"
+        "start": "2026-10-23T17:30:00Z"
       },
       {
-        "name": "Sprint Qualifying",
-        "start": "2026-10-09T12:30:00Z"
+        "name": "Practice 2",
+        "start": "2026-10-23T21:00:00Z"
       },
       {
-        "name": "Sprint",
-        "start": "2026-10-10T09:00:00Z"
+        "name": "Practice 3",
+        "start": "2026-10-24T17:30:00Z"
       },
       {
         "name": "Qualifying",
-        "start": "2026-10-10T13:00:00Z"
+        "start": "2026-10-24T21:00:00Z"
       },
       {
         "name": "Race",
-        "start": "2026-10-11T12:00:00Z"
+        "start": "2026-10-25T20:00:00Z"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "name": "Andrea Kimi Antonelli",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 325
+      "points": 340
     },
     {
       "position": 2,
@@ -42,7 +42,7 @@
       "name": "George Russell",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 236
+      "points": 238
     },
     {
       "position": 3,
@@ -50,23 +50,23 @@
       "name": "Lewis Hamilton",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 221
+      "points": 229
     },
     {
       "position": 4,
-      "code": "LEC",
-      "name": "Charles Leclerc",
-      "team": "Ferrari",
-      "teamColour": "#E80020",
-      "points": 197
-    },
-    {
-      "position": 5,
       "code": "VER",
       "name": "Max Verstappen",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 196
+      "points": 221
+    },
+    {
+      "position": 5,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "teamColour": "#E80020",
+      "points": 215
     },
     {
       "position": 6,
@@ -74,7 +74,7 @@
       "name": "Lando Norris",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 189
+      "points": 201
     },
     {
       "position": 7,
@@ -82,7 +82,7 @@
       "name": "Oscar Piastri",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 128
+      "points": 138
     },
     {
       "position": 8,
@@ -90,7 +90,7 @@
       "name": "Isack Hadjar",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 96
+      "points": 97
     },
     {
       "position": 9,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 69
+      "points": 75
     },
     {
       "position": 10,
@@ -134,19 +134,19 @@
     },
     {
       "position": 14,
+      "code": "HUL",
+      "name": "Nico Hülkenberg",
+      "team": "Audi",
+      "teamColour": "#F50537",
+      "points": 13
+    },
+    {
+      "position": 15,
       "code": "BOR",
       "name": "Gabriel Bortoleto",
       "team": "Audi",
       "teamColour": "#F50537",
       "points": 10
-    },
-    {
-      "position": 15,
-      "code": "HUL",
-      "name": "Nico Hülkenberg",
-      "team": "Audi",
-      "teamColour": "#F50537",
-      "points": 9
     },
     {
       "position": 16,
@@ -217,31 +217,31 @@
     {
       "position": 1,
       "team": "Mercedes",
-      "points": 561,
+      "points": 578,
       "teamColour": "#00D7B6"
     },
     {
       "position": 2,
       "team": "Ferrari",
-      "points": 418,
+      "points": 444,
       "teamColour": "#E80020"
     },
     {
       "position": 3,
       "team": "McLaren",
-      "points": 317,
+      "points": 339,
       "teamColour": "#FF8000"
     },
     {
       "position": 4,
       "team": "Red Bull",
-      "points": 306,
+      "points": 332,
       "teamColour": "#3671C6"
     },
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 94,
+      "points": 100,
       "teamColour": "#6C98FF"
     },
     {
@@ -259,7 +259,7 @@
     {
       "position": 8,
       "team": "Audi",
-      "points": 19,
+      "points": 23,
       "teamColour": "#F50537"
     },
     {
@@ -282,8 +282,8 @@
     }
   ],
   "last_race": {
-    "meeting_name": "Bahrain Grand Prix in Malaysia",
-    "date": "2026-10-04T07:00:00Z",
+    "meeting_name": "Singapore Grand Prix",
+    "date": "2026-10-11T12:00:00Z",
     "results": [
       {
         "position": 1,
@@ -292,10 +292,19 @@
         "team": "Red Bull",
         "teamColour": "#3671C6",
         "dnf": false,
-        "fastestLap": true
+        "fastestLap": false
       },
       {
         "position": 2,
+        "code": "LEC",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
+        "dnf": false,
+        "fastestLap": true
+      },
+      {
+        "position": 3,
         "code": "ANT",
         "name": "Andrea Kimi Antonelli",
         "team": "Mercedes",
@@ -304,38 +313,29 @@
         "fastestLap": false
       },
       {
-        "position": 3,
-        "code": "HAM",
-        "name": "Lewis Hamilton",
-        "team": "Ferrari",
-        "teamColour": "#E80020",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
         "position": 4,
-        "code": "LEC",
-        "name": "Charles Leclerc",
-        "team": "Ferrari",
-        "teamColour": "#E80020",
+        "code": "NOR",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 5,
-        "code": "HAD",
-        "name": "Isack Hadjar",
-        "team": "Red Bull",
-        "teamColour": "#3671C6",
+        "code": "PIA",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "teamColour": "#FF8000",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 6,
-        "code": "PIA",
-        "name": "Oscar Piastri",
-        "team": "McLaren",
-        "teamColour": "#FF8000",
+        "code": "HAM",
+        "name": "Lewis Hamilton",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
         "dnf": false,
         "fastestLap": false
       },
@@ -350,28 +350,28 @@
       },
       {
         "position": 8,
-        "code": "ALO",
-        "name": "Fernando Alonso",
-        "team": "Aston Martin",
-        "teamColour": "#229971",
+        "code": "HUL",
+        "name": "Nico Hülkenberg",
+        "team": "Audi",
+        "teamColour": "#F50537",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 9,
-        "code": "NOR",
-        "name": "Lando Norris",
-        "team": "McLaren",
-        "teamColour": "#FF8000",
+        "code": "RUS",
+        "name": "George Russell",
+        "team": "Mercedes",
+        "teamColour": "#00D7B6",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 10,
-        "code": "LIN",
-        "name": "Arvid Lindblad",
-        "team": "RB F1 Team",
-        "teamColour": "#6C98FF",
+        "code": "HAD",
+        "name": "Isack Hadjar",
+        "team": "Red Bull",
+        "teamColour": "#3671C6",
         "dnf": false,
         "fastestLap": false
       }
@@ -379,11 +379,11 @@
     "winning_team": "Red Bull",
     "winning_team_colour": "#3671C6",
     "fastest_lap": {
-      "code": "VER",
-      "name": "Max Verstappen",
-      "team": "Red Bull",
-      "lapNumber": 55,
-      "durationFormatted": "1:38.220"
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "lapNumber": 41,
+      "durationFormatted": "1:35.202"
     }
   }
 }
