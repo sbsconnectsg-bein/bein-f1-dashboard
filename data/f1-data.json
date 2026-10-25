@@ -1,29 +1,29 @@
 {
-  "updated_at": "2026-10-25T20:17:06.732Z",
+  "updated_at": "2026-10-25T22:59:25.160Z",
   "next_gp": {
-    "meeting_name": "United States Grand Prix",
-    "circuit": "Circuit of the Americas",
-    "country": "USA",
+    "meeting_name": "Mexico City Grand Prix",
+    "circuit": "Autódromo Hermanos Rodríguez",
+    "country": "Mexico",
     "sessions": [
       {
         "name": "Practice 1",
-        "start": "2026-10-23T17:30:00Z"
+        "start": "2026-10-30T18:30:00Z"
       },
       {
         "name": "Practice 2",
-        "start": "2026-10-23T21:00:00Z"
+        "start": "2026-10-30T22:00:00Z"
       },
       {
         "name": "Practice 3",
-        "start": "2026-10-24T17:30:00Z"
+        "start": "2026-10-31T17:30:00Z"
       },
       {
         "name": "Qualifying",
-        "start": "2026-10-24T21:00:00Z"
+        "start": "2026-10-31T21:00:00Z"
       },
       {
         "name": "Race",
-        "start": "2026-10-25T20:00:00Z"
+        "start": "2026-11-01T20:00:00Z"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "name": "Andrea Kimi Antonelli",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 340
+      "points": 365
     },
     {
       "position": 2,
@@ -42,7 +42,7 @@
       "name": "George Russell",
       "team": "Mercedes",
       "teamColour": "#00D7B6",
-      "points": 238
+      "points": 242
     },
     {
       "position": 3,
@@ -50,7 +50,7 @@
       "name": "Lewis Hamilton",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 229
+      "points": 241
     },
     {
       "position": 4,
@@ -58,7 +58,7 @@
       "name": "Max Verstappen",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 221
+      "points": 236
     },
     {
       "position": 5,
@@ -66,7 +66,7 @@
       "name": "Charles Leclerc",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 215
+      "points": 233
     },
     {
       "position": 6,
@@ -74,7 +74,7 @@
       "name": "Lando Norris",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 201
+      "points": 211
     },
     {
       "position": 7,
@@ -82,7 +82,7 @@
       "name": "Oscar Piastri",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 138
+      "points": 144
     },
     {
       "position": 8,
@@ -90,7 +90,7 @@
       "name": "Isack Hadjar",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 97
+      "points": 105
     },
     {
       "position": 9,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 75
+      "points": 77
     },
     {
       "position": 10,
@@ -106,7 +106,7 @@
       "name": "Pierre Gasly",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 41
+      "points": 42
     },
     {
       "position": 11,
@@ -217,37 +217,37 @@
     {
       "position": 1,
       "team": "Mercedes",
-      "points": 578,
+      "points": 607,
       "teamColour": "#00D7B6"
     },
     {
       "position": 2,
       "team": "Ferrari",
-      "points": 444,
+      "points": 474,
       "teamColour": "#E80020"
     },
     {
       "position": 3,
-      "team": "McLaren",
-      "points": 339,
-      "teamColour": "#FF8000"
+      "team": "Red Bull",
+      "points": 355,
+      "teamColour": "#3671C6"
     },
     {
       "position": 4,
-      "team": "Red Bull",
-      "points": 332,
-      "teamColour": "#3671C6"
+      "team": "McLaren",
+      "points": 355,
+      "teamColour": "#FF8000"
     },
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 100,
+      "points": 102,
       "teamColour": "#6C98FF"
     },
     {
       "position": 6,
       "team": "Alpine F1 Team",
-      "points": 68,
+      "points": 69,
       "teamColour": "#FF87BC"
     },
     {
