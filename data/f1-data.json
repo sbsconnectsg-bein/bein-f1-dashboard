@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T15:41:04.050Z",
+  "updated_at": "2026-11-01T20:04:07.123Z",
   "next_gp": {
     "meeting_name": "Mexico City Grand Prix",
     "circuit": "Autódromo Hermanos Rodríguez",
@@ -214,7 +214,7 @@
     },
     {
       "position": 24,
-      "code": "",
+      "code": "HIR",
       "name": "Ryo Hirakawa",
       "team": "Haas F1 Team",
       "teamColour": "#FFFFFF",
