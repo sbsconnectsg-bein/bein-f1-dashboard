@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T17:41:39.269Z",
+  "updated_at": "2026-11-03T00:21:14.332Z",
   "next_gp": {
     "meeting_name": "Brazilian Grand Prix",
     "circuit": "Autódromo José Carlos Pace",
@@ -82,7 +82,7 @@
       "name": "Oscar Piastri",
       "team": "McLaren",
       "teamColour": "#FF8000",
-      "points": 150
+      "points": 144
     },
     {
       "position": 8,
@@ -90,7 +90,7 @@
       "name": "Isack Hadjar",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 105
+      "points": 107
     },
     {
       "position": 9,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 79
+      "points": 83
     },
     {
       "position": 10,
@@ -106,7 +106,7 @@
       "name": "Pierre Gasly",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 43
+      "points": 42
     },
     {
       "position": 11,
@@ -122,7 +122,7 @@
       "name": "Franco Colapinto",
       "team": "Alpine F1 Team",
       "teamColour": "#FF87BC",
-      "points": 31
+      "points": 27
     },
     {
       "position": 13,
@@ -134,19 +134,19 @@
     },
     {
       "position": 14,
+      "code": "BOR",
+      "name": "Gabriel Bortoleto",
+      "team": "Audi",
+      "teamColour": "#F50537",
+      "points": 14
+    },
+    {
+      "position": 15,
       "code": "HUL",
       "name": "Nico Hülkenberg",
       "team": "Audi",
       "teamColour": "#F50537",
       "points": 13
-    },
-    {
-      "position": 15,
-      "code": "BOR",
-      "name": "Gabriel Bortoleto",
-      "team": "Audi",
-      "teamColour": "#F50537",
-      "points": 10
     },
     {
       "position": 16,
@@ -190,6 +190,14 @@
     },
     {
       "position": 21,
+      "code": "HIR",
+      "name": "Ryo Hirakawa",
+      "team": "Haas F1 Team",
+      "teamColour": "#FFFFFF",
+      "points": 1
+    },
+    {
+      "position": 22,
       "code": "STR",
       "name": "Lance Stroll",
       "team": "Aston Martin",
@@ -197,19 +205,11 @@
       "points": 0
     },
     {
-      "position": 22,
+      "position": 23,
       "code": "BOT",
       "name": "Valtteri Bottas",
       "team": "Cadillac F1 Team",
       "teamColour": "#888888",
-      "points": 0
-    },
-    {
-      "position": 23,
-      "code": "HIR",
-      "name": "Ryo Hirakawa",
-      "team": "Haas F1 Team",
-      "teamColour": "#FFFFFF",
       "points": 0
     },
     {
@@ -237,37 +237,37 @@
     {
       "position": 3,
       "team": "Red Bull",
-      "points": 380,
+      "points": 382,
       "teamColour": "#3671C6"
     },
     {
       "position": 4,
       "team": "McLaren",
-      "points": 371,
+      "points": 365,
       "teamColour": "#FF8000"
     },
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 104,
+      "points": 108,
       "teamColour": "#6C98FF"
     },
     {
       "position": 6,
       "team": "Alpine F1 Team",
-      "points": 74,
+      "points": 69,
       "teamColour": "#FF87BC"
     },
     {
       "position": 7,
       "team": "Haas F1 Team",
-      "points": 30,
+      "points": 31,
       "teamColour": "#FFFFFF"
     },
     {
       "position": 8,
       "team": "Audi",
-      "points": 23,
+      "points": 27,
       "teamColour": "#F50537"
     },
     {
@@ -349,24 +349,6 @@
       },
       {
         "position": 7,
-        "code": "PIA",
-        "name": "Oscar Piastri",
-        "team": "McLaren",
-        "teamColour": "#FF8000",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 8,
-        "code": "COL",
-        "name": "Franco Colapinto",
-        "team": "Alpine F1 Team",
-        "teamColour": "#FF87BC",
-        "dnf": false,
-        "fastestLap": false
-      },
-      {
-        "position": 9,
         "code": "LAW",
         "name": "Liam Lawson",
         "team": "RB F1 Team",
@@ -375,11 +357,29 @@
         "fastestLap": false
       },
       {
+        "position": 8,
+        "code": "BOR",
+        "name": "Gabriel Bortoleto",
+        "team": "Audi",
+        "teamColour": "#F50537",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
+        "position": 9,
+        "code": "HAD",
+        "name": "Isack Hadjar",
+        "team": "Red Bull",
+        "teamColour": "#3671C6",
+        "dnf": false,
+        "fastestLap": false
+      },
+      {
         "position": 10,
-        "code": "GAS",
-        "name": "Pierre Gasly",
-        "team": "Alpine F1 Team",
-        "teamColour": "#FF87BC",
+        "code": "HIR",
+        "name": "Ryo Hirakawa",
+        "team": "Haas F1 Team",
+        "teamColour": "#FFFFFF",
         "dnf": false,
         "fastestLap": false
       }
