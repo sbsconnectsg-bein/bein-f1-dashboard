@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T23:20:13.557Z",
+  "updated_at": "2026-11-08T03:55:34.241Z",
   "next_gp": {
     "meeting_name": "Brazilian Grand Prix",
     "circuit": "Autódromo José Carlos Pace",
@@ -218,6 +218,14 @@
       "name": "Sergio Pérez",
       "team": "Cadillac F1 Team",
       "teamColour": "#888888",
+      "points": 0
+    },
+    {
+      "position": 25,
+      "code": "",
+      "name": "Rafael Camara",
+      "team": "Haas F1 Team",
+      "teamColour": "#FFFFFF",
       "points": 0
     }
   ],
