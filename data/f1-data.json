@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T20:56:14.510Z",
+  "updated_at": "2026-11-09T00:25:40.765Z",
   "next_gp": {
     "meeting_name": "Las Vegas Grand Prix",
     "circuit": "Las Vegas Strip Street Circuit",
@@ -66,7 +66,7 @@
       "name": "Charles Leclerc",
       "team": "Ferrari",
       "teamColour": "#E80020",
-      "points": 251
+      "points": 249
     },
     {
       "position": 6,
@@ -98,7 +98,7 @@
       "name": "Liam Lawson",
       "team": "Red Bull",
       "teamColour": "#3671C6",
-      "points": 87
+      "points": 89
     },
     {
       "position": 10,
@@ -239,7 +239,7 @@
     {
       "position": 2,
       "team": "Ferrari",
-      "points": 512,
+      "points": 510,
       "teamColour": "#E80020"
     },
     {
@@ -257,7 +257,7 @@
     {
       "position": 5,
       "team": "RB F1 Team",
-      "points": 112,
+      "points": 114,
       "teamColour": "#6C98FF"
     },
     {
@@ -344,7 +344,7 @@
         "team": "Mercedes",
         "teamColour": "#00D7B6",
         "dnf": false,
-        "fastestLap": false
+        "fastestLap": true
       },
       {
         "position": 6,
@@ -357,19 +357,19 @@
       },
       {
         "position": 7,
-        "code": "LEC",
-        "name": "Charles Leclerc",
-        "team": "Ferrari",
-        "teamColour": "#E80020",
+        "code": "LAW",
+        "name": "Liam Lawson",
+        "team": "RB F1 Team",
+        "teamColour": "#6C98FF",
         "dnf": false,
         "fastestLap": false
       },
       {
         "position": 8,
-        "code": "LAW",
-        "name": "Liam Lawson",
-        "team": "RB F1 Team",
-        "teamColour": "#6C98FF",
+        "code": "LEC",
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "teamColour": "#E80020",
         "dnf": false,
         "fastestLap": false
       },
@@ -394,6 +394,12 @@
     ],
     "winning_team": "McLaren",
     "winning_team_colour": "#FF8000",
-    "fastest_lap": null
+    "fastest_lap": {
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "team": "Mercedes",
+      "lapNumber": 55,
+      "durationFormatted": "1:12.689"
+    }
   }
 }
